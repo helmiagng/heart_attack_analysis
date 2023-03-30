@@ -26,7 +26,7 @@ for index,bar in enumerate(bar_plot):
 ax.set_ylim(-.6,5.5)
 
 # Reformat y-axis tick labels
-ax.set_yticklabels(df['classifier name'])
+ax.set_yticklabels(df['classifier name'],ha = 'left')
 
 # Reformat x-axis tick labels
 ax.xaxis.set_tick_params(labeltop=True, # set x-axis labels on top
@@ -37,12 +37,12 @@ ax.xaxis.set_tick_params(labeltop=True, # set x-axis labels on top
 
 
 # Reformat y-axis y tick labels
-ax.yaxis.set_tick_params(pad=1,
+ax.yaxis.set_tick_params(pad=130,
                          labelsize=11,
-                         bottom = False)
+                         bottom = False,)
 
 
-ax.text(x=-.6,y=6.2,s="Best Heart Attack Classifier Accuracy",fontsize=13,weight='bold',alpha=.8,
+ax.text(x=-60,y=6.2,s="Best Heart Attack Classifier Accuracy",fontsize=13,weight='bold',alpha=1,
         ha='left')
-ax.text(x=-.6,y=5.9,s="Comparing 5 classifier performance",fontsize=11,alpha=.8,
+ax.text(x=-60,y=5.9,s="Comparing 5 classifier performance, %",fontsize=11,alpha=.9,
         ha='left')
