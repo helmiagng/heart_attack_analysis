@@ -4,7 +4,7 @@
 
 Hyperparameter tuning method is using optuna framework for XGBClassifier, LGBMClassifier, SVM , RandomForestClassifier 
 
-![heart_attack_analysis](https://user-images.githubusercontent.com/68595414/228903016-34a5f5a9-bb46-41db-9b44-5db1d8341bc2.png)
+![heart_attack_analysis](https://user-images.githubusercontent.com/68595414/228904987-6a14e6f0-e3b0-40f9-ba2d-2f99671506c3.png)
 
 ## Hyperparameter tuning using optuna 
 
