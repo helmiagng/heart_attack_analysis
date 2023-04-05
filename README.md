@@ -5,6 +5,9 @@
 # Notebook for preprocessing and building model
 Link notebook : https://github.com/helmiagng/heart_attack_analysis/blob/main/heart-attack-analysis-with-92-accuracy-score.ipynb
 
+![image](https://user-images.githubusercontent.com/68595414/230179204-c2266173-879e-4391-9a44-b63c22a7cdd3.png)
+
+
 Hyperparameter tuning method is using optuna framework for XGBClassifier, LGBMClassifier, SVM , RandomForestClassifier 
 
 ![heart_attack_analysis](https://user-images.githubusercontent.com/68595414/228918682-77cf3f73-9ace-4260-a767-a4b0b9e4897b.png)
